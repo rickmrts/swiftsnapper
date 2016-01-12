@@ -7,7 +7,7 @@
         var Capture = Windows.Media.Capture;
         var mediaCapture = new Capture.MediaCapture();
         var mediaSettings = new Capture.MediaCaptureInitializationSettings();
-        var rotationValue = Capture.VideoRotation.none;
+        var rotationValue = Capture.VideoRotation.clockwise90Degrees;
         mediaSettings.audioDeviceId = "";
         mediaSettings.videoDeviceId = "";
         mediaSettings.streamingCaptureMode = Windows.Media.Capture.StreamingCaptureMode.video;;
